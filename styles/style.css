@@ -1,0 +1,43 @@
+.navbar-inner {
+    background-color:transparent;
+}
+ 
+@media (min-width: 768px) {
+  .navbar-nav {
+    width: 100%;
+    text-align: center;
+  }
+  .navbar-nav > li {
+    float: none;
+    display: inline-block;
+  }
+  .navbar-nav > li.navbar-right {
+    float: right !important;
+  }
+}
+
+.divider {
+    color: white;
+    margin: 5px;
+}
+
+.active{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.programing_skills{
+    background-color: #FF9800;
+    color: white;
+}
+
+.icons{
+    font-size: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.languages{
+    align: center;
+}
+
