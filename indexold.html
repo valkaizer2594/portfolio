@@ -1,0 +1,164 @@
+<html>
+    <head>
+        <title>Chinmay's portfolio</title>
+        <!-- css -->
+        <link rel="stylesheet" href="styles/bootstrap.min.css">
+        <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    </head>
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+        <div class="home">
+            <img src="images/background.jpg" class="img-responsive"  height="100%" width="100%" id="image">   
+            <div class="col-sm-12">
+                <div class="carousel-caption text-vertical-center" id="my-slider" dataride="carousel">
+                    <img class="img-circle" src="images/profile.jpg" height="250" width="250">
+                    <br>
+                    <h1 class="display-3">Portfolio</h1>
+                    <hr size="20" color="white">
+                    <p class="lead">Hello my name is Chinmay Naringrekar, and i'am an aspiring web developer and content creator. I'm remotely working on small web projects and make tech reviews / tutorial videos</p>
+                    <hr size="50" color="white">
+                    <nav class="navbar navbar-dark bg-faded container navbar-inner">
+                        <ul class="nav navbar-nav">
+                            <li class="active">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="active">
+                                <a class="nav-link" href="#section1">Projects</a>
+                            </li>
+                            <li class="active">
+                                <a class="nav-link" href="#section2">Skills</a>
+                            </li>
+                            <li class="active">
+                                <a class="nav-link" href="#section3">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+        </div>
+        <div class="projects" id="section1">
+            <div class="container">
+                <h1 align="center">Projects</h1>
+                <hr size="20" color="grey">
+                <p class="lead" align="center">This is a my e-commerce project website that sells modular smartphone (project ara)</p>
+                <div>
+                    <center>
+                        <iframe width="90%" height="75%" src="https://www.youtube.com/embed/xdmuzyg50Vg" frameborder="0" allowfullscreen></iframe>
+                    </center>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="skills" id="section2">
+            <br>
+            <div class="container">
+                <h1 align="center">Skills</h1>
+                <hr size="20" color="white">
+                <br>
+                <p class="languages">
+                    <center><i class="devicon-html5-plain-wordmark icons"></i></center>
+                    <br>
+                    <div class="progress">
+                        <progress class="progress bar" value="90" max="100">90%</progress>
+                    </div>
+                    <br>
+                    <center><i class="devicon-css3-plain-wordmark icons"></i></center>
+                    <br>
+                    <div class="progress">
+                        <progress class="progress bar" value="75" max="100">75%</progress>
+                    </div>
+                    <br>
+                    <center><i class="devicon-bootstrap-plain-wordmark icons"></i></center>
+                    <br>
+                    <div class="progress">
+                        <progress class="progress bar" value="75" max="100">75%</progress>
+                    </div>
+                    <br>
+                    <center><i class="devicon-linux-plain icons"></i></center>
+                    <br>
+                    <div class="progress">
+                        <progress class="progress bar" value="50" max="100">50%</progress>
+                    </div>
+                    <br>
+                    <center><i class="devicon-php-plain icons"></i></center>
+                    <br>
+                    <div class="progress">
+                        <progress class="progress bar" value="50" max="100">50%</progress>
+                    </div>
+                    <br>
+                    <center><i class="devicon-github-plain-wordmark icons"></i></center>
+                    <br>
+                    <div class="progress">
+                        <progress class="progress bar" value="70" max="100">70%</progress>
+                    </div>
+                    <br>
+                    <center><i class="devicon-mysql-plain-wordmark icons"></i></center>
+                    <br>
+                    <div class="progress">
+                        <progress class="progress bar" value="50" max="100">50%</progress>
+                    </div>
+                    <br>
+                    <center><i class="devicon-photoshop-line icons"></i></center>
+                    <br>
+                    <div class="progress">
+                        <progress class="progress bar" value="40" max="100">40%</progress>
+                    </div>
+                    <br>
+                     <center><i class="devicon-java-plain-wordmark icons"></i></center>
+                    <br>
+                    <div class="progress">
+                        <progress class="progress bar" value="40" max="100">40%</progress>
+                    </div>
+                    <br>
+                    <center><i class="devicon-cplusplus-line-wordmark  icons"></i></center>
+                    <br>
+                    <div class="progress">
+                        <progress class="progress bar" value="40" max="100">40%</progress>
+                    </div>
+                    <br>
+                    <center><i class="devicon-dot-net-plain-wordmark icons"></i></center>
+                    <br>
+                    <div class="progress">
+                        <progress class="progress bar" value="30" max="100">30%</progress>
+                    </div>
+                    <br>
+                    <center><i class="devicon-javascript-plain icons"></i></center>
+                    <br>
+                    <div class="progress">
+                        <progress class="progress bar" value="25" max="100">25%</progress>
+                    </div>
+                    <br>
+                </p>
+                <br>
+            </div>
+        </div>
+
+        <div class="contact" id="section3">
+
+
+        <div class="contact">
+            <div class="container">
+                <h1 align="center">Contact Me</h1>
+                <hr size="20" color="grey">
+                
+
+            </div>
+        </div>
+    <script>
+        $(document).ready(function(){     
+        $('body').scrollspy({target: ".navbar", offset: 50});   
+        });
+    </script>
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+    </body>
+</html>
