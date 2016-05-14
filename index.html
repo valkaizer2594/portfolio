@@ -5,8 +5,11 @@
         <link rel="stylesheet" href="styles/bootstrap.min.css">
         <link rel="stylesheet" href="styles/style.css">
         <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
     </head>
-    <body>
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
         <div class="intro">
             <img src="images/background.jpg"  height="100%" width="100%">            
             <div class="carousel-caption text-vertical-center">
@@ -22,13 +25,13 @@
                             <a class="nav-link" href="#">Home</a>
                         </li>
                         <li class="active">
-                            <a class="nav-link" href="#projects">Projects</a>
+                            <a class="nav-link" href="#section1">Projects</a>
                         </li>
                         <li class="active">
-                            <a class="nav-link" href="#skills">Skills</a>
+                            <a class="nav-link" href="#section2">Skills</a>
                         </li>
                         <li class="active">
-                            <a class="nav-link" href="#contact">Contact</a>
+                            <a class="nav-link" href="#section3">Contact</a>
                         </li>
                     </ul>
             </nav>
@@ -37,7 +40,7 @@
             <br>
             <br>
         </div>
-        <div class="projects" id="projects">
+        <div class="projects" id="section1">
             <div class="container">
                 <h1 align="center">Projects</h1>
                 <hr size="20" color="grey">
@@ -52,7 +55,7 @@
         <br>
         <br>
         <br>
-        <div class="skills" id="skills">
+        <div class="skills" id="section2">
             <br>
             <div class="container">
                 <h1 align="center">Skills</h1>
@@ -135,9 +138,15 @@
                 <br>
             </div>
         </div>
-        <div class="contact" id="contact">
+        <div class="contact" id="section3">
 
         </div>
+    <script>
+        $(document).ready(function(){     
+        $('body').scrollspy({target: ".navbar", offset: 50});   
+        });
+    </script>
+
         <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.js"></script>
     </body>
